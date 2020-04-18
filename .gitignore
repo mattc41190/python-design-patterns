@@ -1,1 +1,7 @@
+# Env Files
+
 .venv
+
+# Editor Pref Files
+
+.vscode
