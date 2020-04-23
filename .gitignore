@@ -5,3 +5,8 @@
 # Editor Pref Files
 
 .vscode
+
+# Compiled Python
+
+.pycache
+*.pyc
