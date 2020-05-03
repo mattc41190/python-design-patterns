@@ -15,3 +15,4 @@ Decorators in Python leverage the pattern of functions returning functions.
 ## Issues
 
 - I do not know how to make it work without the `@name` syntax
+    - Read this: https://python-3-patterns-idioms-test.readthedocs.io/en/latest/PythonDecorators.html
