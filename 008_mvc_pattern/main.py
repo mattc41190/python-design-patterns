@@ -5,6 +5,7 @@ quotes = ('A man is not complete until he is married. Then he is finished.',
     'Facts are stubborn things.'
 )
 
+# Model
 class QuoteModel(object):
     def get(self, index):
         try:
@@ -13,6 +14,7 @@ class QuoteModel(object):
             value = 'Not found!'
         return value
 
+# View
 class TerminalView(object):
     def show(self, quote):
         print(quote)
@@ -24,7 +26,7 @@ class TerminalView(object):
     def error(self, msg):
         print(msg)
 
-
+# Controller 
 class QuoteTerminalController(object):
     def __init__(self):
         self.model = QuoteModel()
@@ -44,7 +46,7 @@ class QuoteTerminalController(object):
         quote = self.model.get(index)
         self.view.show(quote)
 
-
+# App
 def main():
     controller = QuoteTerminalController()
     while True:
