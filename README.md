@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This is a collection of small coding projects that demonstrate how to implement design patterns in Python. The examples in this repo are taken from the book "Mastering Design Patterns in Python".
+This is a collection of small coding projects that demonstrate how to implement design patterns in Python. The examples in this repo are taken from the book "Mastering Design Patterns in Python". The main idea is to provide a quick reference to a pattern you understand how to best leverage when the time comes.
 
 ## Why make this?
 
